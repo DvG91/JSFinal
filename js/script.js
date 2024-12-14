@@ -100,12 +100,13 @@ function vaciarCarrito() {                                              // Funci
 
 function comprar() {                                                            // Función para confirmar la compra
     if (carrito.length === 0) {
-        alert("El carrito está vacío. Agrega productos antes de comprar.");
+        swal("El carrito está vacío. Agrega productos antes de comprar.");
         return;
     }
     
-    const modal = new bootstrap.Modal(document.getElementById("modalCompra"));          // Mostrar el modal de bootstrap
-    modal.show();
+    swal("¡Compra realizada!", "Gracias por su compra!", "success");                      //Una mejora visual, quito modal de bootstrap
+    /*const modal = new bootstrap.Modal(document.getElementById("modalCompra"));          // Mostrar el modal de bootstrap
+    modal.show();*/
 
     // Vacia el carrito después de la compra
     carrito = [];

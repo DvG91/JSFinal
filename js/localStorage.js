@@ -20,7 +20,7 @@ function agregarAlCarrito(id) {
     }
 
     localStorage.setItem("carrito", JSON.stringify(carrito));
-    alert("Producto agregado al carrito");
+    swal("Producto agregado al carrito");
 }
 
 function vaciarCarrito() {
