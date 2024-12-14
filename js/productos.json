@@ -1,8 +1,38 @@
 [
-    { id: 1, nombre: "Canarias", precio: 5100, imagen: "assets/img/1.png" },
-    { id: 2, nombre: "Playadito", precio: 4500, imagen: "assets/img/2.png" },
-    { id: 3, nombre: "La Merced", precio: 4700, imagen: "assets/img/3.png" },
-    { id: 4, nombre: "Mañanitas", precio: 4000, imagen: "assets/img/4.png" },
-    { id: 5, nombre: "Unión", precio: 3300, imagen: "assets/img/5.png" },
-    { id: 6, nombre: "Cósmico", precio: 4300, imagen: "assets/img/6.png" },
+    {
+        "id": 1,
+        "nombre": "Canarias",
+        "precio": 5100,
+        "imagen": "assets/img/1.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Playadito",
+        "precio": 4500,
+        "imagen": "assets/img/2.png"
+    },
+    {
+        "id": 3,
+        "nombre": "La Merced",
+        "precio": 4700,
+        "imagen": "assets/img/3.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Mañanita",
+        "precio": 4000,
+        "imagen": "assets/img/4.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Unión",
+        "precio": 3300,
+        "imagen": "assets/img/5.png"
+    },
+    {
+      "id": 6,
+      "nombre": "Cósmico",
+      "precio": 4300,
+      "imagen": "assets/img/6.png"
+    }
 ]
